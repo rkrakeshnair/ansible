@@ -1,6 +1,7 @@
 ---
- - name:Ping test
+ - name: Hello World
    hosts: all
 
    tasks:
-     - ping:      
+   - name: Hello World
+     shell: echo "Hi! Tower is working"
